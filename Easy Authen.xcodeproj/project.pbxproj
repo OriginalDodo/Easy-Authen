@@ -14,7 +14,7 @@
 		33BA895D1F2887E800F9A8B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BA895B1F2887E800F9A8B5 /* LaunchScreen.storyboard */; };
 		33BA89651F288BDD00F9A8B5 /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BA89641F288BDD00F9A8B5 /* logo_40pkru.png */; };
 		33BA89671F288BFD00F9A8B5 /* 1200px-ราชภัฏภูเก็ต.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BA89661F288BFD00F9A8B5 /* 1200px-ราชภัฏภูเก็ต.png */; };
-		33BA89691F289E9B00F9A8B5 /* READ.md in Sources */ = {isa = PBXBuildFile; fileRef = 33BA89681F289E9B00F9A8B5 /* READ.md */; };
+		33BA89691F289E9B00F9A8B5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 33BA89681F289E9B00F9A8B5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		33BA895E1F2887E800F9A8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33BA89641F288BDD00F9A8B5 /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = ../../../../Desktop/logo_40pkru.png; sourceTree = "<group>"; };
 		33BA89661F288BFD00F9A8B5 /* 1200px-ราชภัฏภูเก็ต.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1200px-ราชภัฏภูเก็ต.png"; path = "../../../../Desktop/1200px-ราชภัฏภูเก็ต.png"; sourceTree = "<group>"; };
-		33BA89681F289E9B00F9A8B5 /* READ.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = READ.md; sourceTree = "<group>"; };
+		33BA89681F289E9B00F9A8B5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				33BA89591F2887E800F9A8B5 /* Assets.xcassets */,
 				33BA895B1F2887E800F9A8B5 /* LaunchScreen.storyboard */,
 				33BA895E1F2887E800F9A8B5 /* Info.plist */,
-				33BA89681F289E9B00F9A8B5 /* READ.md */,
+				33BA89681F289E9B00F9A8B5 /* README.md */,
 			);
 			path = "Easy Authen";
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BA89691F289E9B00F9A8B5 /* READ.md in Sources */,
+				33BA89691F289E9B00F9A8B5 /* README.md in Sources */,
 				33BA89551F2887E800F9A8B5 /* ViewController.swift in Sources */,
 				33BA89531F2887E800F9A8B5 /* AppDelegate.swift in Sources */,
 			);
