@@ -12,6 +12,8 @@
 		33BA89581F2887E800F9A8B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BA89561F2887E800F9A8B5 /* Main.storyboard */; };
 		33BA895A1F2887E800F9A8B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BA89591F2887E800F9A8B5 /* Assets.xcassets */; };
 		33BA895D1F2887E800F9A8B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BA895B1F2887E800F9A8B5 /* LaunchScreen.storyboard */; };
+		33BA89651F288BDD00F9A8B5 /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BA89641F288BDD00F9A8B5 /* logo_40pkru.png */; };
+		33BA89671F288BFD00F9A8B5 /* 1200px-ราชภัฏภูเก็ต.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BA89661F288BFD00F9A8B5 /* 1200px-ราชภัฏภูเก็ต.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		33BA89591F2887E800F9A8B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33BA895C1F2887E800F9A8B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33BA895E1F2887E800F9A8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BA89641F288BDD00F9A8B5 /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = ../../../../Desktop/logo_40pkru.png; sourceTree = "<group>"; };
+		33BA89661F288BFD00F9A8B5 /* 1200px-ราชภัฏภูเก็ต.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1200px-ราชภัฏภูเก็ต.png"; path = "../../../../Desktop/1200px-ราชภัฏภูเก็ต.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				33BA89521F2887E800F9A8B5 /* AppDelegate.swift */,
+				33BA89661F288BFD00F9A8B5 /* 1200px-ราชภัฏภูเก็ต.png */,
+				33BA89641F288BDD00F9A8B5 /* logo_40pkru.png */,
 				33BA89541F2887E800F9A8B5 /* ViewController.swift */,
 				33BA89561F2887E800F9A8B5 /* Main.storyboard */,
 				33BA89591F2887E800F9A8B5 /* Assets.xcassets */,
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BA89671F288BFD00F9A8B5 /* 1200px-ราชภัฏภูเก็ต.png in Resources */,
+				33BA89651F288BDD00F9A8B5 /* logo_40pkru.png in Resources */,
 				33BA895D1F2887E800F9A8B5 /* LaunchScreen.storyboard in Resources */,
 				33BA895A1F2887E800F9A8B5 /* Assets.xcassets in Resources */,
 				33BA89581F2887E800F9A8B5 /* Main.storyboard in Resources */,

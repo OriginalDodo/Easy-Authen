@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Easy_Authen" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,81 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_40pkru.png" translatesAutoresizingMaskIntoConstraints="NO" id="SMT-oo-CtU">
+                                <rect key="frame" x="67.5" y="43" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="cgK-2N-xgh"/>
+                                    <constraint firstAttribute="height" constant="240" id="tEe-Zk-S1d"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TIE-HW-HHQ">
+                                <rect key="frame" x="88" y="318" width="199" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="I2k-s9-HLV"/>
+                                    <constraint firstAttribute="width" constant="199" id="jYf-f7-vc3"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mJK-gm-bzL">
+                                <rect key="frame" x="88" y="378" width="199" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="199" id="CnD-ze-uj8"/>
+                                    <constraint firstAttribute="width" constant="199" id="Psx-0D-Wl6"/>
+                                    <constraint firstAttribute="height" constant="30" id="jt5-hX-A2w"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="u0L-EM-zU7"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ay7-oY-Cjc">
+                                <rect key="frame" x="131.5" y="617" width="112" height="30"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="b6Z-ZT-Voe"/>
+                                    <constraint firstAttribute="height" constant="30" id="qO8-Ux-7SW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="login">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please login " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exa-gg-Irf">
+                                <rect key="frame" x="16" y="440" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.81999999999999995" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SMT-oo-CtU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="32P-vr-8cy"/>
+                            <constraint firstItem="TIE-HW-HHQ" firstAttribute="top" secondItem="SMT-oo-CtU" secondAttribute="bottom" constant="35" id="5UI-Cm-Zbm"/>
+                            <constraint firstItem="mJK-gm-bzL" firstAttribute="top" secondItem="TIE-HW-HHQ" secondAttribute="bottom" constant="30" id="EW3-7u-LBe"/>
+                            <constraint firstItem="ay7-oY-Cjc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FHf-Vz-gZj"/>
+                            <constraint firstItem="TIE-HW-HHQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OPf-T7-aUG"/>
+                            <constraint firstItem="exa-gg-Irf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OrZ-FE-27L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="exa-gg-Irf" secondAttribute="trailing" id="Qlq-Cr-R1g"/>
+                            <constraint firstItem="mJK-gm-bzL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X9u-GX-Ebz"/>
+                            <constraint firstItem="exa-gg-Irf" firstAttribute="top" secondItem="mJK-gm-bzL" secondAttribute="bottom" constant="32" id="jCm-Yv-VuK"/>
+                            <constraint firstItem="ay7-oY-Cjc" firstAttribute="top" secondItem="exa-gg-Irf" secondAttribute="bottom" constant="156" id="pBD-rJ-Vkl"/>
+                            <constraint firstItem="SMT-oo-CtU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="q8R-sn-nlY"/>
+                            <constraint firstItem="exa-gg-Irf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y4n-4H-gFq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo_40pkru.png" width="500" height="591"/>
+    </resources>
 </document>
