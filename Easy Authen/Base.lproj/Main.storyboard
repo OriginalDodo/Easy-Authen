@@ -37,7 +37,7 @@
                                     <constraint firstAttribute="height" constant="30" id="I2k-s9-HLV"/>
                                     <constraint firstAttribute="width" constant="199" id="jYf-f7-vc3"/>
                                 </constraints>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -65,6 +65,9 @@
                                 <state key="normal" title="login">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0r1-Hv-2T8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please login " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exa-gg-Irf">
                                 <rect key="frame" x="16" y="440" width="343" height="21"/>
@@ -89,6 +92,11 @@
                             <constraint firstItem="exa-gg-Irf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y4n-4H-gFq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="massageLabel" destination="exa-gg-Irf" id="SgA-Sw-CQ4"/>
+                        <outlet property="passwordTextField" destination="mJK-gm-bzL" id="hob-4T-1LT"/>
+                        <outlet property="userTextField" destination="TIE-HW-HHQ" id="8Hi-Cp-24h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
